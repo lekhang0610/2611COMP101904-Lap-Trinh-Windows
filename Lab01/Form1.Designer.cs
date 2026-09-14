@@ -113,9 +113,8 @@ namespace QuanLyThongTinCaNhan
             cboKhoa.Size = new Size(295, 23);
             cboKhoa.Items.AddRange(new object[] {
                 "Công nghệ thông tin",
-                "Kỹ thuật phần mềm",
-                "Khoa học máy tính",
-                "Hệ thống thông tin"
+                "Công nghệ giáo dục",
+                "Sư phạm tin học"
             });
 
             // btnHienThi
