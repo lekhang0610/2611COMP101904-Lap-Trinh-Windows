@@ -25,20 +25,20 @@ hỏi xác nhận trước khi đóng chương trình.
 Form hiển thị đầy đủ các control theo yêu cầu: tiêu đề, 3 ô nhập (Họ tên, Năm sinh,
 Email), GroupBox chọn giới tính, ComboBox khoa/lớp, 3 nút lệnh và khung hiển thị kết quả.
 
-![Giao diện ban đầu](screenshots/01-giao-dien-ban-dau.png)
+![Giao diện ban đầu](QuanLyThongTinCaNhan/screenshots/01-giao-dien-ban-dau.png)
 
 ### 2. Kiểm tra khi bỏ trống toàn bộ dữ liệu
 Nhấn **Hiển thị** khi chưa nhập gì — chương trình gom toàn bộ lỗi thiếu dữ liệu vào
 một MessageBox duy nhất (họ tên, năm sinh, email trống; chưa chọn giới tính; chưa
 chọn khoa/lớp).
 
-![Lỗi dữ liệu trống](screenshots/02-loi-du-lieu-trong.png)
+![Lỗi dữ liệu trống](QuanLyThongTinCaNhan/screenshots/02-loi-du-lieu-trong.png)
 
 ### 3. Kiểm tra năm sinh không phải số nguyên
 Nhập năm sinh dạng thập phân (`1900,5`) — chương trình phát hiện và báo lỗi
 "Năm sinh phải là số nguyên."
 
-![Lỗi năm sinh không phải số nguyên](screenshots/03-loi-nam-sinh-khong-so-nguyen.png)
+![Lỗi năm sinh không phải số nguyên](QuanLyThongTinCaNhan/screenshots/03-loi-nam-sinh-khong-so-nguyen.png)
 
 ### 4. Kiểm tra năm sinh ngoài khoảng cho phép
 Nhập năm sinh `1899` (nhỏ hơn 1900) — chương trình báo lỗi "Năm sinh phải nằm trong
@@ -46,4 +46,4 @@ khoảng từ 1900 đến 2026." Khung kết quả phía dưới vẫn giữ k�
 trước đó (Họ tên: Lê Minh Khang, Năm sinh 1900 → Tuổi 126) vì lần nhập này bị chặn lại,
 không cập nhật kết quả mới.
 
-![Lỗi năm sinh ngoài khoảng](screenshots/04-loi-nam-sinh-ngoai-khoang.png)
+![Lỗi năm sinh ngoài khoảng](QuanLyThongTinCaNhan/screenshots/04-loi-nam-sinh-ngoai-khoang.png)
