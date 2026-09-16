@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -121,13 +121,15 @@ class Program
 {
     static List<NhanVien> danhSach = new List<NhanVien>();
 
-    static void NhapDuLieuMauMinh()
+    static void NhapItNhat5NhanVien()
     {
-        danhSach.Add(new NhanVienVanPhong("NV01", "Nguyễn Văn An", 5000000, 20));
-        danhSach.Add(new NhanVienVanPhong("NV02", "Trần Thị Bình", 5500000, 15));
-        danhSach.Add(new NhanVienKinhDoanh("NV03", "Lê Văn Cường", 4000000, 50000000));
-        danhSach.Add(new NhanVienKinhDoanh("NV04", "Phạm Thị Duyên", 4200000, 30000000));
-        danhSach.Add(new NhanVienThoiVu("NV05", "Hoàng Văn Em", 80, 50000));
+        int soLuong = 0;
+        while (soLuong < 5)
+        {
+            Console.WriteLine($"\n-- Nhập nhân viên thứ {soLuong + 1} --");
+            NhapNhanVien();
+            soLuong = danhSach.Count;
+        }
     }
 
     static void NhapNhanVien()
@@ -205,7 +207,7 @@ class Program
         Console.OutputEncoding = Encoding.UTF8;
         Console.InputEncoding = Encoding.UTF8;
 
-        NhapDuLieuMauMinh();
+        NhapItNhat5NhanVien();
 
         while (true)
         {
