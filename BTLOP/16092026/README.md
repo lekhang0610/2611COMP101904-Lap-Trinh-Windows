@@ -4,8 +4,6 @@ Chương trình Console C# quản lý nhân viên, áp dụng Class, Property, C
 
 ## Ảnh minh họa
 
-> _(Thêm ảnh chụp màn hình chương trình vào đây)_
-
 ![Ảnh minh họa 1](images/screenshot-1.png)
 ![Ảnh minh họa 2](images/screenshot-2.png)
 
@@ -50,7 +48,7 @@ Menu gồm:
 ## Cách chạy chương trình
 
 1. Mở Visual Studio → tạo project **Console App (C#)**.
-2. Thay nội dung file `Program.cs` bằng nội dung file `QuanLyNhanVien.cs`.
+2. Thay nội dung file `Program.cs` bằng nội dung file `16092026.cs`.
 3. Nhấn **F5** (Debug) hoặc **Ctrl+F5** (chạy không debug) để chạy chương trình.
 
 ## Yêu cầu
