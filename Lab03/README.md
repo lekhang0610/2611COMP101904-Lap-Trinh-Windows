@@ -51,9 +51,3 @@ dotnet run
 - Nhap ngay sinh theo dinh dang `dd/MM/yyyy`; nhap sai dinh dang se duoc yeu cau nhap lai.
 - `Program.cs` chi dieu khien luong va goi `QuanLySinhVien`, khong thao tac truc tiep tren `List<SinhVien>`.
 - LINQ duoc dung trong `TimTheoMa`, `TimTheoTen`, `SapXepTheoDiem`, `LocSinhVienDat`.
-
-## Nop bai
-
-- Push len GitHub ca nhan (repo/thu muc ten `Lab03`).
-- Deadline: het ngay 20/9/2026.
-- Can nam ro cach hoat dong cua `SinhVien` va `QuanLySinhVien` de giai thich khi duoc hoi.
