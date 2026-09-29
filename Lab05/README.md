@@ -25,16 +25,18 @@ dotnet run
 ```
 
 ## Hình ảnh
-Chụp và chèn ảnh vào thư mục `images/`:
 
-1. Giao diện khi mới mở
-   ![Giao diện](images/01-form.png)
-2. Đổi khóa học / số tháng, tổng tiền thay đổi
-   ![Tính tiền](images/02-tinh-tien.png)
-3. Báo lỗi khi bỏ trống họ tên
-   ![Lỗi](images/03a-loi.png)
-   ![Lỗi](images/03b-loi.png)
-4. Phiếu đăng ký
-   ![Phiếu](images/04-phieu.png)
-5. Hộp thoại xác nhận thoát
-   ![Thoát](images/05-thoat.png)
+### 1. Giao diện khi mới mở
+![Giao diện](images/01-form.png)
+
+### 2. Đổi khóa học / số tháng, tổng tiền thay đổi
+![Tính tiền](images/02-tinh-tien.png)
+
+### 3. Báo lỗi khi bỏ trống họ tên và số điện thoại
+![Lỗi](images/03a-loi.png)
+![Lỗi](images/03b-loi.png)
+### 4. Phiếu đăng ký
+![Phiếu](images/04-phieu.png)
+
+### 5. Hộp thoại xác nhận thoát
+![Thoát](images/05-thoat.png)
