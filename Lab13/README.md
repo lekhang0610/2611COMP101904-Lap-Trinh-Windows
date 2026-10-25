@@ -12,7 +12,7 @@ Học phần COMP1019 - Lập trình trên Windows (C# WinForms, .NET 8).
 
 ## Cấu trúc
 ```
-StudentReportDemo
+Lab13
 ├── Models/SinhVien.cs
 ├── Forms/FrmBaoCaoSinhVien.cs (+ .Designer.cs)
 └── Program.cs
