@@ -2,7 +2,7 @@
 
 **Học phần:** COMP1019 - Lập trình trên Windows
 **Sinh viên:** *(điền tên bạn ở đây)*
-**Công nghệ:** C# - Console App (.NET 8)
+**Công nghệ:** C# - Console App (.NET 8 trở lên)
 
 ## 1. Mô tả
 
@@ -42,7 +42,7 @@ Toàn bộ xử lý được tách thành các phương thức nhỏ trong `Prog
 ## 4. Cách chạy chương trình
 
 1. Mở thư mục project bằng Visual Studio (yêu cầu .NET 8 SDK) hoặc mở file
-   `Lab02_QuanLyMang.csproj`.
+   `Lab02.csproj`.
 2. Nhấn **F5**/**Ctrl+F5** để build và chạy, hoặc chạy bằng dòng lệnh:
    ```
    dotnet run
