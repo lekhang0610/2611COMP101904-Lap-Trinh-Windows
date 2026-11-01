@@ -103,11 +103,24 @@ Chọn chức năng **2**.
 
 Chọn chức năng **7** hai lần:
 
+
 ### 6.7. Kiểm tra dữ liệu nhập sai
 
-(images/kiem_tra_du_lieu_1.png)
-(images/kiem_tra_du_lieu_2.png)
-(images/kiem_tra_du_lieu_3.png)
+**Trường hợp kiểm tra 1:**
 
-Khi nhập lựa chọn menu `-1` (ngoài khoảng 0-7), chương trình không bị dừng bất thường mà báo
-*"Lua chon khong hop le. Vui long nhap lai (0-7)"* và chờ nhập lại.
+![Kiểm tra dữ liệu 1](images/kiem_tra_du_lieu_1.png)
+
+**Trường hợp kiểm tra 2:**
+
+![Kiểm tra dữ liệu 2](images/kiem_tra_du_lieu_2.png)
+
+**Trường hợp kiểm tra 3:**
+
+![Kiểm tra dữ liệu 3](images/kiem_tra_du_lieu_3.png)
+
+Khi nhập lựa chọn menu `-1` (ngoài khoảng 0–7), chương trình không bị dừng bất thường mà báo:
+
+*"Lua chon khong hop le. Vui long nhap lai (0-7)"*
+
+Sau đó chương trình chờ người dùng nhập lại.
+
