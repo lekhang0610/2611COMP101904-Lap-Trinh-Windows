@@ -1,7 +1,7 @@
 # Bài Lab 01 - Ứng Dụng Thông Tin Cá Nhân
 
 **Học phần:** COMP1019 - Lập trình trên Windows
-**Công cụ:** Visual Studio, Windows Forms App (.NET 8), C#
+**Công cụ:** Visual Studio, Windows Forms App (.NET 10), C#
 
 ## Mô tả
 Ứng dụng Windows Forms cho phép nhập thông tin cá nhân sinh viên (họ tên, năm sinh,
