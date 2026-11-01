@@ -81,7 +81,7 @@ Chọn chức năng **2**.
 
 ### 6.4. Tính tổng, Tìm max/min và đếm chẵn/lẻ
 
-(images/tinh-tong.png)
+(images/tinh_tong.png)
 (images/tim_max_min.png)
 (images/dem_chan_le.png)
 
