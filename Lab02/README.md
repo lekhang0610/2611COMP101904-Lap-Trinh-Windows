@@ -48,14 +48,15 @@ Toàn bộ xử lý được tách thành các phương thức nhỏ trong `Prog
    dotnet run
    ```
 
+
 ## 5. Dữ liệu kiểm thử tham khảo
 
 | STT | Dữ liệu nhập | Kết quả mong đợi |
-|---|---|---|
-| 1 | 5 phần tử: `4 1 9 2 7` | Tổng = 23, max = 9, min = 1, chẵn = 2, lẻ = 3 |
-| 2 | 4 phần tử: `-3 0 8 -1` | Tổng = 4, max = 8, min = -3, chẵn = 2, lẻ = 2 |
-| 3 | Tìm x = 9 trong `4 1 9 2 7` | Có tìm thấy, vị trí đầu tiên là 2 (tính từ 0) |
-| 4 | Tìm x = 5 trong `4 1 9 2 7` | Không tìm thấy |
+|-----|--------------|------------------|
+| 1 | 5 phần tử: `1 2 3 4 5` | **Tổng = 15**, max = 5, min = 1, chẵn = 2, lẻ = 3 |
+| 2 | 5 phần tử: `1 2 3 4 5` | **Max = 5**, min = 1 |
+| 3 | Tìm x = 5 trong `1 2 3 4 5` | Tìm thấy tại vị trí 4 (chỉ số từ 0) |
+| 4 | Tìm x = 0 trong `555 5 45 54 4` | Không tìm thấy |
 | 5 | Nhập n = 0 hoặc n âm | Chương trình yêu cầu nhập lại |
 
 ## 6. Kết quả chạy chương trình
