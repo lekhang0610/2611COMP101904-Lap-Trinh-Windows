@@ -60,8 +60,6 @@ Toàn bộ xử lý được tách thành các phương thức nhỏ trong `Prog
 
 ## 6. Kết quả chạy chương trình
 
-Dữ liệu dùng để chạy demo: mảng gồm 5 phần tử `1 2 4 0 7`.
-
 ### 6.1. Menu chương trình
 
 ![Menu chuong trinh](images/menu.png)
@@ -70,41 +68,38 @@ Menu hiển thị đúng 8 lựa chọn (1-7 và 0. Thoat) theo mẫu đề bài
 
 ### 6.2. Nhập mảng
 
-![Nhap mang](images/nhap-mang.png)
+![Nhap mang](images/nhap_mang.png)
 
-Chọn chức năng **1**, nhập số lượng phần tử `n = 5`, sau đó nhập lần lượt 5 phần tử: `1 2 4 0 7`.
+Chọn chức năng **1**.
 Chương trình báo *"Nhap mang thanh cong!"*.
 
 ### 6.3. Xuất mảng
 
-![Xuat mang](images/xuat-mang.png)
+![Xuat mang](images/xuat_mang.png)
 
-Chọn chức năng **2**, chương trình in ra mảng hiện tại: `1 2 4 0 7`.
+Chọn chức năng **2**.
 
-### 6.4. Tìm max/min và đếm chẵn/lẻ
+### 6.4. Tính tổng, Tìm max/min và đếm chẵn/lẻ
 
-![Tinh toan tren mang](images/tinh-toan.png)
-
-- Chức năng **4**: giá trị lớn nhất = `7`, giá trị nhỏ nhất = `0`.
-- Chức năng **5**: số phần tử chẵn = `3` (2, 4, 0), số phần tử lẻ = `2` (1, 7).
+(images/tinh-tong.png)
+(images/tim_max_min.png)
+(images/dem_chan_le.png)
 
 ### 6.5. Sắp xếp tăng dần
 
-![Sap xep tang dan](images/sap-xep.png)
-
-Chọn chức năng **6**, mảng `1 2 4 0 7` được sắp xếp tăng dần thành `0 1 2 4 7`.
+![Sap xep tang dan](images/sap_xep.png)
 
 ### 6.6. Tìm kiếm
 
-![Tim kiem](images/tim-kiem.png)
+![Tim kiem](images/tim_kiem.png)
 
 Chọn chức năng **7** hai lần:
-- Tìm `x = 177`: không tìm thấy trong mảng.
-- Tìm `x = 0` (sau khi mảng đã sắp xếp thành `0 1 2 4 7`): tìm thấy tại vị trí `0` (tính từ 0).
 
 ### 6.7. Kiểm tra dữ liệu nhập sai
 
-![Kiem tra du lieu nhap](images/kiem-tra-du-lieu.png)
+(images/kiem_tra_du_lieu_1.png)
+(images/kiem_tra_du_lieu_2.png)
+(images/kiem_tra_du_lieu_3.png)
 
 Khi nhập lựa chọn menu `-1` (ngoài khoảng 0-7), chương trình không bị dừng bất thường mà báo
 *"Lua chon khong hop le. Vui long nhap lai (0-7)"* và chờ nhập lại.
